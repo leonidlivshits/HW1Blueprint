@@ -1,0 +1,43 @@
+# Universal Game Development .gitignore
+
+# Build outputs
+[Bb]uild/
+[Bb]uilds/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+
+# Unity specific
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Aa]ssets/AssetStoreTools*
+
+# Unity auto-generated files
+*.pidb
+*.booproj
+*.tmp
+*.user
+*.userprefs
+*.unityproj
+*.suo
+*.sln
+*.csproj
+
+# Unreal Engine specific
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+
+# Platform specific
+.DS_Store
+Thumbs.db
+*.meta~
+
+# Large asset folders (use Git LFS instead)
+# Assets/Textures/
+# Assets/Audio/
+# Assets/Models/
