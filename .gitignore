@@ -1,43 +1,47 @@
-# Universal Game Development .gitignore
+# Unreal Engine - recommended
 
-# Build outputs
-[Bb]uild/
-[Bb]uilds/
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-
-# Unity specific
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Aa]ssets/AssetStoreTools*
-
-# Unity auto-generated files
-*.pidb
-*.booproj
-*.tmp
-*.user
-*.userprefs
-*.unityproj
-*.suo
-*.sln
-*.csproj
-
-# Unreal Engine specific
+# Project / engine generated
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
 .vscode/
 .vs/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.log
 
-# Platform specific
+# Build folders
+Build/
+Builds/
+
+# IDE / OS
 .DS_Store
 Thumbs.db
-*.meta~
 
-# Large asset folders (use Git LFS instead)
-# Assets/Textures/
-# Assets/Audio/
-# Assets/Models/
+# Visual Studio
+*.vcxproj*
+*.vcproj*
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Unity / other engine leftovers (if present)
+[Ll]ibrary/
+[Tt]emp/
+
+# Optional Editor caches
+*.opensdf
+.vs/
+
+# Do NOT ignore Content/ — this contains game assets (uasset, umap)
+# Do NOT ignore Source/ or Config/ or .uproject files
+
+# If you use Git LFS, track large binaries in .gitattributes instead:
+#   *.uasset filter=lfs diff=lfs merge=lfs -text
+#   *.umap  filter=lfs diff=lfs merge=lfs -text
